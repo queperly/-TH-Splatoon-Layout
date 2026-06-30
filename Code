@@ -1,0 +1,2063 @@
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--
+Splatoon Layout
+Code by Queperly
+
+!!!! TURN OFF WYSIWYG !!!!
+
+--!-- SECONDARY COLOR --!--
+#948E8B
+Find and replace it with what you like!
+
+--!-- SPLASHTAG --!--
+The splashtag is an image! Make your own here:
+Bagdes for the splatfest sliders were taken from here!
+https://seymourschlong.github.io/splashtags/
+
+--!-- STICKERS --!--
+They are all square images! I mostly use the Splatoon 3 badges from inkipedia
+https://splatoonwiki.org/wiki/Main_Page
+
+--!-- DIVIER INFO --!--
+They use a repeating image, if you want to adjust the size, change the percentage of the background-size
+This can be applied to the "banner" under the main one, just copy and paste "background-image:url()" and "background-size: (any)%" into the style and remove "background-color"
+The background-color can also be on the main banner, just copy-paste "background-color: (color)" into style and remove "background-image" and "background-size"
+
+--!-- STAR RATINGS --!--
+To change a star from solid to empty, change "fa-solid" to "fa-regular", and vice versa
+
+--!-- LEVEL BARS --!--
+adjust "width: (any)%" to change progress
+
+This is the first code I've made that im super proud of! I'm sorry if there are any errors!
+-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--Hide profile--><div class = "card border-0" style="margin-top: -60px;height:30px;"></div>
+<div class = "justify-content-center" style="margin-top: 0px;"> 
+<div class = "row card rounded border-0" style = "height:auto; width:1200px;">
+<div class = "row no-gutters">
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class = "col-lg-7">
+
+<!--Background Image: 200px by 200px, repeating pattern-->
+<div style = "position:absolute; z-index:0; height:750px; margin-top:50px; margin-left:60px; width:91%; border-radius: 30px 0px 0px 30px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/73454919_Lwz5kIOWAEGHUyn.png);"></div>
+<div style = "height:255px;">
+
+<!--Species Icon-------------------------------------->
+<div style = "position:absolute; left:80%; top:9%; z-index:3; transform:skewY(4deg) rotate(0deg); ">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:85px; max-width:85px;">
+</div>
+
+<!--Character Name------------------------------------>
+<div style = "z-index: 1; position: relative; width:auto; max-width:600px; height:200px; background: #948E8B; left:5px; padding:20px; top:20px; transform:skewY(4deg) rotate(0deg); clip-path: polygon(2% 2%, 96% 12%, 100% 52%, 0 59%); align-items: center;">
+<div style = "font-size:50px; font-weight:500; color: white; overflow:auto; max-height:90px; font-family:arial black">
+NAME
+</div>
+</div>
+
+<!--Character Title--------------------------------->
+<div style = "z-index: 2; position: relative; width:auto; max-width:500px; height:120px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115299_uNDZsUSLflJRXTl.jpg) ; margin-left:170px;
+padding:20px; top:-70px; clip-path: polygon(3% 3%, 99% 2%, 99% 61%, 0 54%); transform: skewY(4deg) rotate(0deg); align-items: center;">
+<div style= "float: right; order-radius: 4px; max-height:35px; overflow:auto; font-size:20px; font-weight:500; color:white; font-family:arial black">
+Title
+</div>  
+</div>
+
+<!--Arrow Buttons--------------------------------->
+<div class = "justify-content-between row" style = "width:100%;padding-left:2%;">
+<div class = "card border-0" style = "position:relative; z-index:5; right:-20px; top:-130px;  transform: rotate(1deg); background-color: rgba(0,0,0,0.0)">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114967_Ib9rVGk9DcTJDAj.gif" style = "max-height:40px;">
+</div>
+<div class = "card text-right border-0" style = "position:relative; z-index:5; left:20px; top:-120px; transform: rotate(1deg); background-color: rgba(0,0,0,0.0)">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114961_hnz9QInZoqJ5SUP.gif" style = "max-height:40px;">
+</div>
+</div>
+</div>
+
+<div style = "height:450px;">
+<div class = "ml-4 mr-2" style = "z-index: 1; position: relative; top:-70px; height:600px; max-height:600px; max-width:100%; align-items: center; transform: rotate(1deg);">
+<div style = "max-height:540px;">
+
+<!--Tab Header------------------------------------>
+<div class="card-header" style= "background: rgba(100,100,100,0.0)">
+<ul class="nav nav-tabs card-header-tabs nav-fill">
+
+<!--Header 1-->
+<li class="nav-item mr-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png); clip-path: polygon(84% 0, 89% 2%, 92% 7%, 95% 14%, 100% 100%, 0 100%, 5% 14%, 8% 7%, 11% 2%, 16% 0);">
+<a class="nav-link active" data-toggle="tab" href="#FOUR"><span style = "color:#948E8B; font-family:arial black">Overview</span></a>
+</li>
+
+<!--Header 2-->
+<li class="nav-item mr-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png); clip-path: polygon(84% 0, 89% 2%, 92% 7%, 95% 14%, 100% 100%, 0 100%, 5% 14%, 8% 7%, 11% 2%, 16% 0);"> <a class="nav-link" data-toggle="tab" href="#FIVE"><span style = "color:#948E8B; font-family:arial black">Stats</span></a>
+</li>
+
+<!--Header 3-->
+<li class="nav-item mr-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png); clip-path: polygon(84% 0, 89% 2%, 92% 7%, 95% 14%, 100% 100%, 0 100%, 5% 14%, 8% 7%, 11% 2%, 16% 0);">
+<a class="nav-link" data-toggle="tab" href="#SIX"><span style = "color:#948E8B; font-family:arial black">Story</span></a>
+</li>
+
+<!--Header 4-->
+<li class="nav-item mr-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png); clip-path: polygon(84% 0, 89% 2%, 92% 7%, 95% 14%, 100% 100%, 0 100%, 5% 14%, 8% 7%, 11% 2%, 16% 0);">
+<a class="nav-link" data-toggle="tab" href="#SEVEN"><span style = "color:#948E8B; font-family:arial black">Links</span></a>
+</li>
+</ul>
+</div>
+
+<!--TAB CONTENT-------------------------------------------------------------------------------------------------------------------------->
+<div class="tab-content p-4" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115184_yW4pdwmdxkGdOZW.png);  border-radius: 10px 10px 30px 30px;">
+
+<!--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1-->
+<div class="tab-pane fade in active show" style="max-height: 500px; height: 500px; overflow:auto" id="FOUR">
+
+<div class = "row no-gutters mr-1 ml-1">
+<div class ="col-12 col-lg-6" style = "max-width:95%">
+<div style = "position:sticky; top:0px; color:white;">
+
+<!--SPLASHTAG----------------------------------------------->
+<div class= "mb-2"style = "height:85px; position:relative;z-index:1;transform: rotate(2deg); top:5px;">
+<img src ="https://cdn.discordapp.com/attachments/1112840316173701200/1150719562443128842/basic_splashtag.png?ex=65e58f9b&is=65d31a9b&hm=188b09eb4e79fc0c475d6ff8398d548f2c6694fb3f0956a540b34fa49b076dcb&" style = "max-height:100%"></div>
+
+<!--TRAITS LIST: Add as much as you want, it will expand------------------------------>
+<!--Please keep info within boxes as concise as you can, the boxes cannot expand :(-->
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "row justify-content-center">
+<div class = "p-2" style = "background-color:black; transform: rotate(-4deg); max-height:40px; width:40%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(2deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Species
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(2deg); width:45%">
+Sillyling
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(4deg); max-height:40px; width:423">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(5deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black"> 
+Pronouns
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(-3deg); width:46%">
+Pronouns
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(4deg); max-height:40px; width:48%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(-5deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Orientation
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(2deg); width:45%; overflow:auto">
+Orientation
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(-1deg); max-height:40px; width:30%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(-7deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Age
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(3deg); width:40%">
+00
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(3deg); max-height:40px; width:40%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(-6deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Birthday
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(-1deg); width:45%">
+December 31
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(-1deg); max-height:40px; width:40%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(5deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Height
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(5deg); width:40%">
+00"00
+</div>
+</div>
+
+<!--TRAIT & INFO-------------------------------------------------->
+<div class = "mt-2 row justify-content-center">
+<div class = "p-2" style = "background-color:black;color:black; transform: rotate(-1deg); max-height:40px; width:25%">
+<div style = "position: relative; background-color:yellow; color:black; transform: rotate(-5deg); max-height:40px; top:-8px; padding:2px">
+
+<!--Trait-->
+<div class = "text-center" style = "border-style: solid ; padding:5px; font-family:arial black">
+Job
+</div>
+</div>
+</div>
+
+<!--Info-->
+<div class = "p-2 ml-2 text-center" style = "background-color: rgba(0,0,0,0.6); transform: rotate(-3deg); width:60%; overflow:auto">
+Occuptation
+</div>
+</div>
+
+<!--you can add more if you want!!-->
+
+</div>
+</div>
+
+<!--QUOTE BOX------------------------------------------------------------>
+<div class = "col-12 col-lg" style = "color:white; max-width:100%">
+
+<!--Character Name-->
+<div><div class = "p-1 pl-3"style = "background-color: #6f6f6f; position:relative; top:10px; font-family:arial black; right:5%; max-width:96%; z-index:1">
+Name
+</div></div>
+
+<div class = "row align-items-center mt-2" style = "font-family:arial black; font-size:17px; background-color: rgba(0,0,0,0.6); max-width:100%;left:5%; position:relative">
+
+<div class = "col-4">
+<div class = "text-center" style = "background-color:black; height:60px; border-radius:5px;">  
+<!--Character Icon-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:60px; max-width:60px;">
+</div>
+</div>
+
+<!--Quote, adjust size as needed-->
+<div class = "m-2 col" style ="font-size:100%">
+❝ 
+Quote
+❞
+</div>
+</div>
+
+<!--Introduction-->
+<div class = "p-2">
+Write a short introduction here!!
+</div>
+</div>
+</div>
+
+<!--DIVIDER------------------------------------------------------------------------------>
+<div class = "text-center mt-2" style = "background-color:gray; font-family: arial black; font-size:20px; transform: rotate(-2deg);max-width:99%; height:35px;">
+<div style = "background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); background-size: 100%; height:30px; transform: rotate(3deg); top:5px; position:relative; color:white; ">
+Music Box
+</div>
+</div>
+
+<!--MUSIC BOX-------------------------------------------------------------------->
+<div class = "row mr-1 ml-1 p-3 justify-content-around" style = "color:white; background-color: rgba(0,0,0,0.6);  max-width:100%">
+
+<!--Album Cover-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg" style = "max-height:150px; border-radius:15px;"></div>
+
+<div class = "align-items-center p-1" style = "max-width:300px">
+<div>
+<!--Song Name-->
+<div style = "font-size:18px; font-family:arial black">
+SONG NAME
+</div>
+
+<!--Song Artist/ Band-->
+<div style = "font-size:14px">
+Song Artist/ Band
+</div>
+</div>
+</div>
+<div class = "align-items-center" style = "max-width:30%"><div>
+<div style = "height:50px;">
+
+<!--YOUTUBE LINK!! This plays when you click the y button and audio icon-->
+<!--DO NOT CHANGE THE REST OF THE LINK!! Get the id at the end of the video link and paste it in the spot that says paste, then remove extra space-->
+<iframe src="https://www.youtube.com/embed/     paste     ?controls=0"
+
+frameborder="0"style="position:relative; opacity:0.0; max-width:110px;height:180px;z-index:10; top:-42px">
+</iframe>
+</div>
+<div class = "align-items-center" style = "position:relative; top:-27px;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115110_YQ8OppigwGKDaCu.png" style = "max-height:50px">
+<i class="fa-solid fa-volume fa-beat ml-3" style = "font-size:30px"></i></div>
+</div>
+</div>
+</div>
+
+<!--DIVIDER------------------------------------------------------------------------------>
+<div class = "text-center" style = "background-color:gray; font-family: arial black; font-size:20px; transform: rotate(2deg);max-width:99%; height:35px;">
+<div style = "background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); background-size: 100%; height:30px; transform: rotate(-4deg); top:-5px; position:relative; color:white; ">
+Preferences
+</div>
+</div>
+
+<!--PREFERENCES------------------------------------------------------------------------->
+<div class = "row no-gutters" style = "max-width:98%">
+<div class = "col-12 col-lg">
+<div class = "m-1 mt-3">
+
+<!--LIKES-->
+<div class = "col-lg">
+<div style = "background-color:green; border-radius:15px;">
+<div style = "font-family:arial black; color:white; font-size:25px;">
+
+<!--Species Icon-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:50px; position:relative; top:-10px; right:5%; transform: rotate(-40deg)">Likes</div>
+<div class ="pr-2 pl-2 pb-2">
+
+<!--Like-->
+<div class ="card" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white">
+<div class = "m-1"><i class="fa-solid fa-circle mr-3"></i>
+Like
+</div>
+</div>
+
+<!--Like-->
+<div class ="card mt-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white">
+<div class = "m-1"><i class="fa-solid fa-circle mr-3"></i>
+Like
+</div>
+</div>
+
+<!--Like-->
+<div class ="card mt-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white">
+<div class = "m-1"><i class="fa-solid fa-circle mr-3"></i>
+Like
+</div>
+</div>
+
+<!--You can add more if you want!!-->
+
+</div>
+</div>
+</div>
+
+<!--DISLIKES-->
+<div class = "col-lg mt-3">
+<div style = "background-color:red; border-radius:15px;">
+<div style = "font-family:arial black; color:white; font-size:25px;">
+
+<!--Species Icon-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454962_nJ2UZkdONEmHZv9.png" style = "max-height:50px; position:relative; top:-10px; right:5%; transform: rotate(-40deg)">Dislikes</div>
+<div class ="pr-2 pl-2 pb-2">
+
+<!--Dislike-->
+<div class ="card" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white"><div class = "m-1"><i class="fa-solid fa-x mr-3"></i>
+Dislike
+</div>
+</div>
+
+<!--Dislike-->
+<div class ="card mt-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white">
+<div class = "m-1"><i class="fa-solid fa-x mr-3"></i>
+Dislike
+</div>
+</div>
+
+<!--Dislike-->
+<div class ="card mt-1" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); color:white">
+<div class = "m-1"><i class="fa-solid fa-x mr-3"></i>
+Dislike
+</div>
+</div>
+
+<!--You can add more if you want!!-->
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Trivia-------------------------------------------------->
+<div class = "col-lg mt-3 mb-3" style = "color:white">
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%">
+<div>
+
+<!--Sticker-->    
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-7deg)">Trivia</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+</div>
+</div>
+
+<!--Trivia list-->
+<div>
+<ul>
+<li>fact</li>
+<li>fact</li>
+<li>fact</li>
+<li>fact</li>
+</ul>
+
+Silly silly notes
+
+</div>
+</div>
+</div>
+
+<!--SLIDER BOX---------------------------------------->
+<div class = "col-12 col-lg-7" style = "max-width:98%">
+
+<!--I'm so sorry-->
+<!--To edit the slider, change the color in the style-->
+<!--Add "style = "color: (color)"-->
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(207,185,111,0.5);transform:rotate(1deg)">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black">
+<div>Extrovert</div>
+<div>Introvert</div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(207,185,111,0.5); transform:rotate(-1deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black">
+<div>Competitive</div>
+<div>Casual</div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(207,185,111,0.5); transform:rotate(2deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black">
+<div>Independent</div>
+<div>Cooperative</div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(207,185,111,0.5); transform:rotate(-1deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black">
+<div>Implusive</div>
+<div>Deliberate</div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(207,185,111,0.5); transform:rotate(2deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black">
+<div>Friendly</div>
+<div>Antagonistic</div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--SPLATFEST OPTIONS--------------------------------------------->
+<div style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg); transform:rotate(2deg)">
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(191,130,160,0.3); transform:rotate(-2deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black; height:45px;">
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115988_aOi1ZdxhbktptIa.png" style = "max-height:35px; position:relative; transform: rotate(5deg); top:-5px;">Friends</div>
+<div>Family<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115982_bzLN4pMvNA9T51m.png" style = "max-height:35px; position:relative; transform: rotate(-2deg); top:-3px;"></div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(153,52,102,0.3); transform:rotate(2deg)" class = "mt-2">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black; height:45px;">
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115970_Pb4o933bf6eEJKK.png" style = "max-height:45px; position:relative; transform: rotate(-8deg); top:3px;">Love</div>
+<div>Money<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115973_XQq1tw5UUNaUbQw.png" style = "max-height:45px; position:relative; transform: rotate(7deg); top:-3px;"></div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px; color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+
+<!--Slider---------------------------->
+<div style = "background-color: rgba(26,2,111,0.3); transform:rotate(1deg)" class = "mt-1">
+
+<!--Options-->
+<div class = "justify-content-between p-2 pr-4 pl-4" style = "color:white;font-family:arial black; height:45px;">
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115957_jsWajjVk7VeE3Xh.png" style = "max-height:45px; position:relative; transform: rotate(8deg); top:-3px;">Chaos</div>
+<div>Order<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115963_7ONNp1vXPuC5jaj.png" style = "max-height:45px; position:relative; transform: rotate(-6deg); top:2px;"></div>
+</div>
+
+<!--Editable range-->
+<div class = "align-items-center justify-content-around pr-5 pl-5 pb-2" style = "font-size:65%; color:black">
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;color:white"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical"></i>
+<i class="fa-solid fa-rectangle-vertical" style = "font-size:20px;"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1--TAB 1-->
+
+<!--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2-->
+<div class="tab-pane fade in" style="max-height: 500px; height: 500px; overflow:auto" id="FIVE">
+<div class = "p-2 mb-2"style ="background-color:rgba(0,0,0,0.6); clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);color:white; font-family: arial black; font-size:20px; ">
+<div class = "row" style = "width:95%">
+<div class = "col-sm-2"> Level </div>
+
+<!--Level-->
+<div class = "col-sm-1">
+999
+</div>
+
+<!--TURF WAR----------------------------------------------------------->
+<div class = "col-lg-9">
+<div class="progress" style = "background-color:#343434">
+
+<!--Level bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-color:#0ed00a;height:30px; ">
+
+<!--Experience points-->
+<div class = "mt-1" style = "font-size:170%; color:white">
+99,999 / 99,999
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--TURF WAR INFO & NOTES----------------------------------------------------------->
+<div class = "row no-gutters" style = "max-width:99%; color:white">
+<div class = "col-lg p-2">
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%">
+
+<!--Sticker-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">Notes</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+</div>
+
+<!--NOTES-->
+</div>
+<ul>
+<li>note</li>
+<li>note</li>
+<li>note</li>
+</ul>
+
+You can delete the notes if you want!!
+
+</div>
+
+<!--FRESHNESS BOX--------------------------------------------------->
+<div class = "col-lg mt-2" style = "background-color: rgba(0,0,0,0.6); transform: skewY(-2deg); border: solid 10px #0ed00a;font-size:92%;"><div class = "justify-content-between p-1">
+
+<!--Rating-->
+<div style = "font-family:arial black;"><i class="fa-solid fa-flag" style = "color: #0ed00a"></i> 
+SUPERFRESH!
+</div>
+
+<!--Star rating-->
+<div style = "color:yellow">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+</div>
+
+<hr class = "mt-1 mb-1" style  ="border:solid 2px  #0ed00a;">
+<div class = "justify-content-around"style = "font-family: arial black; font-size:30px;">
+
+<!--Weapon Image-->
+<img src = "https://cdn.wikimg.net/en/splatoonwiki/images/b/bf/S3_Weapon_Main_Splattershot.png" style = "max-height:80px">
+
+<!--Number Rating-->
+<div class = "align-items-center" style = "color:#0ed00a">
+99.9
+</div>
+</div>
+</div>
+</div>
+
+<!--TABLETURF----------------------------------------------------------->
+<div class = "p-2 mb-2 mt-3"style ="background-color:rgba(0,0,0,0.6); clip-path: polygon(1% 0, 95% 0, 100% 100%, 0% 100%);;color:white; font-family: arial black; font-size:20px; ">
+<div class = "row" style = "width:95%"> 
+<div class = "col-sm-2"> Level </div>
+
+<!--Level-->
+<div class = "col-sm-1">
+999
+</div>
+
+<div class = "col-lg-9">
+<div class="progress" style = "background-color:#343434">
+
+<!--Level bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-color:#622df7;height:30px; ">
+
+<!--Experience points-->
+<div class = "mt-1" style = "font-size:170%; color:white">
+99,999 / 99,999
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--TABLETURF INFO BOX----------------------------------------------------------->
+<div class = "row no-gutters">
+
+<!--Card Image-->
+<div class = "col-lg-4 text-center">
+<img src = "https://cdn.wikimg.net/en/splatoonwiki/images/d/d7/Tableturf_Splattershot_Jr.png" style = "max-height:180px; transform:rotate(-3deg)"></div>
+<div class = "col-lg p-2" style="color:white">
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%"><div>Tableturf</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+</div>
+</div>
+
+<!--Notes-->
+<div>
+<ul>
+<li>Note</li>
+<li>Note</li>
+<li>Note</li>
+<li>Note</li>
+</ul>
+
+Why is tableturf here?? cause i said so
+
+</div>
+</div>
+</div>
+
+<!--COMPETITIVE BOX----------------------------------------------------------->
+<div class = "row no-gutters mt-3" style = "color:white">
+
+<!--RANKED------------------------------------------------------------------->
+<div class = "col-lg mr-2 p-2" style = "background-color: 
+rgb(238,84,0); border-radius:10px;">
+<div style = "height:30px;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114872_tqU8L1JalG1sBfu.png" style = "max-height:55px; position:relative; top:-18px; transform: rotate(-15deg)">
+<span style = "font-family:arial black; font-size:20px; position:relative; top:-12px;">RANK</span>
+</div>
+
+<!--Splat Zones-------------------------->
+<div class = "row no-gutters p-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114841_R3V1PMqFmIq99JM.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end"> 
+<div class = "mr-2" style = "font-size:18px;">Splat Zones </div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px;font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Tower Control-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/78114861_Y4Guzw1t8ptPw2a.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Tower Control</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Rainmaker-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114856_s7v4vhycQyRPgTs.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Rainmaker</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Clam Blitz-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114847_bnjksPOiK6ozT4i.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Clam Blitz</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+</div>
+
+<!--X RANK------------------------------------------------------------------->
+<div class = "col-lg ml-2 p-2" style = "background-color:rgb(2,208,126);  border-radius:10px;">
+<div style = "height:30px;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114921_HG1kdBm6aPzw63b.png" style = "max-height:55px; position:relative; top:-18px; transform: rotate(-15deg)">
+<span style = "font-family:arial black; font-size:20px; position:relative; top:-12px;">X-RANK</span>
+</div>
+
+<!--Splat Zones-------------------------->
+<div class = "row no-gutters p-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114841_R3V1PMqFmIq99JM.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end"> 
+<div class = "mr-2" style = "font-size:18px;">Splat Zones </div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px;font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Tower Control-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/78114861_Y4Guzw1t8ptPw2a.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Tower Control</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Rainmaker-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114856_s7v4vhycQyRPgTs.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Rainmaker</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+
+<!--Clam Blitz-------------------------->
+<div class = "row no-gutters p-1 mt-1" style = "border-radius:10px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png);">
+<div class = "col-2 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78114847_bnjksPOiK6ozT4i.png" style = "max-height:35px"></div>
+<div class = "col row no-gutters pr-2 pl-2 align-items-end">
+<div class = "mr-2" style = "font-size:18px;">Clam Blitz</div>
+<div class = "col border-left-0 border-right-0 border-bottom-0 mb-1" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--Grade-->
+<div class = "ml-2" style = "font-size:20px; font-family: arial black">
+D+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--COMPETITIVE NOTES----------------------------------------------------------->
+<div class = "row no-gutters" style = "color:white;">
+<div class = "col-lg-5 p-2">
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%">
+
+<!--Sticker-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">Notes</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(7deg); top:10px;">
+</div>
+</div>
+
+<!--Notes-->
+<div>
+<ul>
+<li>small section</li>
+<li>for notes only</li>
+<li>note</li>
+<li>or not, up to you</li>
+</ul>
+</div>
+</div>
+
+<!--Notes 2-->
+<div class = "col-lg p-2">
+I never play ranked lolllll
+</div>
+</div>
+
+<!--DIVIDER------------------------------------->
+<div class = "text-center mt-1" style = "background-color:gray; font-family: arial black; font-size:20px; transform: rotate(-2deg);max-width:99%; height:35px;">
+<div style = "background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); background-size: 100%; height:30px; transform: rotate(3deg); top:-5px; position:relative; color:white;">
+Gear
+</div>
+</div>
+
+<!--GEAR---------------------------------------------------------------------------->
+<div class = "row no-gutters justify-content-around mt-2" style = "color:white">
+
+<!--WEAPON----------------------------------------------------------->
+<div class = "col-lg-6 p-2" >
+<div style = "background-color:rgba(0,0,0,0.6)">
+
+<!--Weapon Name-->
+<div class = "p-1" style = "background-color:yellow; transform: rotate(-2deg)">
+<div class = "p-1" style = "background-color:black; font-family:arial black; font-size: 16px; transform: rotate(1deg)">
+Weapon Name
+</div>
+</div>
+
+<div class = "row no-gutters mt-2">
+<div class = "col-7 align-items-center">
+
+<!--Weapon Image-->
+<img src = "https://cdn.wikimg.net/en/splatoonwiki/images/b/bf/S3_Weapon_Main_Splattershot.png" style = "background-color:white; border-radius:20px;" class = "ml-2">
+</div>
+
+<div class = "col text-center">
+
+<!--Sub Weapon/ bomb-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "background-color:rgba(0,0,0,0.6); border-radius:20px; max-height:77px">
+
+<!--Special Weapon/ Ultimate-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "background-color:rgba(0,0,0,0.6); border-radius:20px; max-height:77px" class = "mt-2">
+</div>
+</div>
+
+<!--Turf Inked-->
+<div class = "text-center" style = "font-family:arial black; font-size: 20px;">
+Turf Inked:
+<br>
+99,999,999 p 
+</div>
+</div>
+
+<div class = "p-2">
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%">
+<div>Notes</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+</div>
+</div>
+
+<!--Notes-->
+<div>
+<ul>
+<li>note</li>
+<li>note</li>
+<li>note</li>
+<li>note</li>
+</ul>
+
+pew pew pew pew
+
+</div>
+</div>
+</div>
+
+<!--OUTFIT----------------------------------------------------------->
+<div class = "col-lg-5 p-2" style = "max-width:92%">
+
+<!--Hat---------------------->
+<div style = "background-color:rgba(0,0,0,0.6); height:190px; position:relative; transform:rotate(3deg); right:5%">
+
+<!--Clothing Name-->
+<div style = "background-color:yellow; transform: rotate(-2deg); padding:3px;">
+<div class = "p-1" style = "background-color:black; font-family:arial black; font-size: 13px; transform: rotate(1deg)">
+Hat Name 
+</div>
+</div>
+
+<div class = "row no-gutters">
+<div class = "col-6 text-center">
+
+<!--Clothing Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "background-color:white; border-radius:20px; height:85px;" class ="mt-1"></div>
+
+<div class = "col">
+
+<!--Star rating-->
+<div style = "color:yellow">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+
+<div class = "text-right mt-1" style = "background-color:white; font-family:arial black; font-size:13px; color:black">
+
+<!--Brand Logo-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "border-radius:10px; max-height:40px;" class =  "pr-1"><br>
+
+<!--Brand Name-->
+<div class = "mt-1">
+BRAND NAME
+</div>
+</div>
+</div>
+</div>
+
+<!--Abilities---------------->
+<div class = "row no-gutters justify-content-around align-items-center mt-1 mb-1" style = "background-color:gray">
+
+<!--Main-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:50px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+</div>
+<div class = "p-1 " style = "background-color:black; width:103%; left:-5px; position:relative; transform: rotate(-1deg); top:-5px;">
+<div class="progress" style = "background-color:#343434">
+
+<!--Level bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-color:#205fff;height:15px; ">
+
+<!--Experience points-->
+<div style = "font-size:120%; color:white; font-family:arial black">
+99,999 / 99,999
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Clothes---------------------->
+<div style = "background-color:rgba(0,0,0,0.6); height:190px; position:relative; top:5px; transform:rotate(-3deg);">
+
+<!--Clothes name-->
+<div style = "background-color:yellow; transform: rotate(-2deg); padding:3px;">
+<div class = "p-1" style = "background-color:black; font-family:arial black; font-size: 13px; transform: rotate(1deg)">
+Clothing Name 
+</div>
+</div>
+
+<div class = "row no-gutters">
+<div class = "col-6 text-center">
+
+<!--Clothing Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "background-color:white; border-radius:20px; height:85px;" class ="mt-1"></div>
+
+<div class = "col">
+
+<!--Star rating-->
+<div style = "color:yellow">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+
+<div class = "text-right mt-1" style = "background-color:white; font-family:arial black; font-size:13px; color:black">
+
+<!--Brand Logo-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "border-radius:10px; max-height:40px;" class =  "pr-1"><br>
+
+<!--Bran Name-->
+<div class = "mt-1">
+BRAND NAME
+</div>
+</div>
+</div>
+</div>
+
+<!--Abilities---------------->
+<div class = "row no-gutters justify-content-around align-items-center mt-1 mb-1" style = "background-color:gray">
+
+<!--Main-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:50px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+</div>
+
+<div class = "p-1 " style = "background-color:black; width:103%; left:-5px; position:relative; transform: rotate(-1deg); top:-5px;">
+<div class="progress" style = "background-color:#343434">
+
+<!--Level bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-color:#04cb7c;height:15px; ">
+
+<!--Experience points-->
+<div style = "font-size:120%; color:white; font-family:arial black">
+99,999 / 99,999
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Shoes---------------------->
+<div style = "background-color:rgba(0,0,0,0.6); height:190px; position:relative; top:13px; transform:rotate(2deg); left:5%">
+
+<!--Clothing Name-->
+<div style = "background-color:yellow; transform: rotate(-2deg); padding:3px;">
+<div class = "p-1" style = "background-color:black; font-family:arial black; font-size: 13px; transform: rotate(1deg)">
+Shoes Names 
+</div>
+</div>
+
+<div class = "row no-gutters">
+
+<!--Clothing Image-->
+<div class = "col-6 text-center">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "background-color:white; border-radius:20px; height:85px;" class ="mt-1"></div>
+
+<div class = "col">
+
+<!--Star rating-->
+<div style = "color:yellow">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+
+<div class = "text-right mt-1" style = "background-color:white; font-family:arial black; font-size:13px; color:black">
+
+<!--Brand Logo-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "border-radius:10px; max-height:40px;" class =  "pr-1"><br>
+
+<!--Brand Name-->
+<div class = "mt-1">
+BRAND NAME
+</div>
+</div>
+</div>
+</div>
+
+<!--Abilities---------------->
+<div class = "row no-gutters justify-content-around align-items-center mt-1 mb-1" style = "background-color:gray">
+
+<!--Main-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:50px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+
+<!--Sub-->
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73455000_uScwjDabnZXcmVs.png" style = "height:40px;">
+</div>
+
+<div class = "p-1 " style = "background-color:black; width:103%; left:-5px; position:relative; transform: rotate(-1deg); top:-5px;">
+<div class="progress" style = "background-color:#343434">
+
+<!--Level Bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-color:#be53ff;height:15px; ">
+
+<!--Experience points-->
+<div style = "font-size:120%; color:white; font-family:arial black">
+99,999 / 99,999
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--DIVIDER------------------------------------->
+<div class = "text-center mt-5" style = "background-color:gray; font-family: arial black; font-size:20px; transform: rotate(1deg);max-width:99%; height:35px;">
+<div style = "background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); background-size: 100%; height:30px; transform: rotate(-3deg); top:-5px; position:relative; color:white;">
+Salmon Run
+</div>
+</div>
+
+<!--SALMON RUN------------------------------------------------------------------->
+<div style= "position:relative; top:-40px;">
+<div>
+
+<!--Job Title-->
+<div style = "font-size:270%;font-weight: bold; color:#4dd764; position:relative; top:35px; z-index:1; left:10%; letter-spacing:3px; width:90%; font-family: arial black; ">
+JOB TITLE
+</div>
+
+<div class = "col" style = "background-color:rgba(0,0,0,0.8); color:#4dd764; height:110px; border-radius:20px; padding-top:40px">
+<div class="progress" style = "background-color: #5A5350">
+
+<!--Level bar-->
+<div class="progress-bar progress-bar-striped progress-bar-animated"  style="width:70%;background-color:#ff6600; height:25px;"></div>
+</div>
+
+<!--Average waves cleared-->
+<div class = "text-right" style = "font-size:140%;">
+<span style = "font-weight: bold; font-family: arial black">AVG</span>
+<span>waves cleared:</span>
+
+<!--Waves average-->
+<span style = "font-weight: bold; color:#ecbf0f; font-family: arial black">0.0</span>
+</div>
+</div>
+</div>
+
+<!--SALMON RUN INFO------------------------------------------------------------->
+<div class = "row no-gutters mt-2">
+
+<!--Slopsuit & Notes------------------------>
+<div class = "col-lg p-2">
+<div style = "background-color:yellow; width:70%; position:relative;z-index:1; transform: rotate(-1deg); padding:5px; font-size:130%">
+<div style = "background-color:black; color:#ff6600; transform: rotate(1deg); padding:5px; font-family:arial black">Slopsuit</div>
+</div>
+
+<div class = "text-center justify-content-center" style = "transform: rotate(-3deg); position:relative; top:-5px;">
+<div class = "col-8 p-2"style ="background-color: rgba(0,0,0,0.9);">
+
+<!--Slopsuit image-->
+<img src = "https://cdn.wikimg.net/en/splatoonwiki/images/c/c5/Orange_Slopsuit.png?20230911012832" style = "max-height:150px;">
+</div>
+</div>
+
+<div class = "justify-content-between" style = "font-family:arial black;color:white;background-color: rgba(0,0,0,0.9); padding:7px; font-size:130%">
+
+<!--Sticker-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-10%; transform: rotate(-5deg)">Notes</div>
+<div style = "position:relative; top:-10px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative;left:-7%; transform: rotate(-5deg); top:9px">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(5deg); top:5px;">
+
+<!--Sticker-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/73454955_zpsZkhIxDCcl2o8.png" style = "max-height:30px; position:relative; transform: rotate(7deg); top:10px;">
+</div>
+</div>
+
+<!--Notes-->
+<div style = "color:white">
+<ul>
+<li>note</li>
+<li>note</li>
+<li>note</li>
+</ul>
+Can you guess which mode is my favourite tee hee
+</div>
+</div>
+
+<!--GRIZZCO POINT CARD-------------------------------->
+<div class = "col-lg">
+<div style ="background-color: rgba(0,0,0,0.9); color:#ff6600; position:relative; z-index:1; padding:5px; padding-left:10px; font-family: arial black; transform :rotate(2deg); font-size:130%; width:98%"> Grizzco Point Card</div>
+
+<div style ="background-color:yellow; border-radius:7px; transform: rotate(2deg); width:97%; position:relative; top:-10px;padding-top:10px;">
+
+<!--Current points-->
+<div class = "m-2 p-2" style = "background-color: rgba(0,0,0,0.9); color:yellow">
+Current points
+<div class = "text-right" style = "font-family: arial black;font-size:130%;">
+999,999p
+</div>
+</div>
+
+<div class = "pr-2 pl-2 pb-2">
+
+<!--Info row-->
+<div class = "border-left-0 border-right-0 border-top-0 pt-1" style = "border: 3px dotted black;">
+<div  style = "font-family: arial black; color:#882609">Shifts worked</div>
+<div class = "text-right" style = "color:black">
+999,999,999
+</div>
+</div>
+
+<!--Info row-->
+<div class = "border-left-0 border-right-0 border-top-0 pt-1" style = "border: 3px dotted black;">
+<div  style = "font-family: arial black; color:#882609">Golden Eggs collected</div>  
+<div class = "text-right"  style = "color:black">
+999,999,999
+</div>
+</div>
+
+<!--Info row-->
+<div class = "border-left-0 border-right-0 border-top-0 pt-1" style = "border: 3px dotted black;">
+<div  style = "font-family: arial black; color:#882609">Power Eggs collected</div>
+<div class = "text-right"  style = "color:black">
+999,999,999
+</div>
+</div>
+
+<!--Info row-->
+<div class = "border-left-0 border-right-0 border-top-0 pt-1" style = "border: 3px dotted black;">
+<div  style = "font-family: arial black; color:#882609">King Salmonids defeated</div>
+<div class = "text-right"  style = "color:black">
+999,999,999
+</div>
+</div>
+
+<!--Info row-->
+<div class = "border-left-0 border-right-0 border-top-0 pt-1" style = "border: 3px dotted black;">
+<div  style = "font-family: arial black; color:#882609">Crew members rescued</div>
+<div class = "text-right"  style = "color:black">
+999,999,999
+</div>
+</div>
+
+<!--Info row-->
+<div class = "pt-1">
+<div  style = "font-family: arial black; color:#882609">Total points</div>
+<div class = "text-right" style = "color:black">
+999,999,999
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2--TAB 2-->
+
+<!--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3-->
+<div class="tab-pane fade in" style="max-height:540px; height: 500px; overflow:auto" id="SIX">
+
+<!--this section can be filled as much as you like!-->
+<!--it doesn't need to follow the current setup, you can copy and paste whichever section wherever you need-->
+
+<!--STORY SECTION: IMAGE RIGHT----------------------------------------------->
+<div class = "mb-3">
+<div class = "row no-gutters">
+
+<!--Chapter Number: changeable images-->
+<div class = "col-3">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73454769_CpQekez6FRJcojB.png" style = "max-width:45%;">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73454769_CpQekez6FRJcojB.png" style = "max-width:45%;">
+</div>
+
+<!--Chapter title-->
+<div class = "col align-items-center pl-4" style = "background-color:rgba(0,0,0,0.9); position:relative; color:white; max-height:70px; top:10px; left:-2%; clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%); font-family: arial black; font-size:170%">
+title
+</div>
+</div>
+
+<!--TEXT BODY------------------------------------------------------>
+<div class = "p-2 row no-gutters" style = "color:white">
+<div class ="col-lg m-2">
+THE TEXT BODY
+</div>
+<!--TEXT BODY------------------------------------------------------>
+
+<!--Accomapnying image-->
+<div class = "col-lg-3">
+<div class = "text-center" style = "transform:rotate(3deg); z-index:1; position:relative; top:7px">
+
+<!--Tape-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115674_Trgr3O249JggjWC.png" style = "max-height:30px"></div>
+</div>
+<div class = "p-2" style = "transform:rotate(2deg); background-color:white">
+
+<!--Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+</div>
+</div>
+</div>
+</div>
+
+<!--STORY SECTION: IMAGE LEFT----------------------------------------------->
+<div class = "mb-3">
+<div class = "row no-gutters">
+
+<!--Chapter title-->
+<div class = "col-3">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73454769_CpQekez6FRJcojB.png" style = "max-width:45%;">
+<img src ="https://f2.toyhou.se/file/f2-toyhou-se/images/73454769_CpQekez6FRJcojB.png" style = "max-width:45%;">
+</div>
+
+<!--Chapter title-->
+<div class = "col align-items-center pl-4" style = "background-color:rgba(0,0,0,0.9); position:relative; color:white; max-height:70px; top:10px; left:-2%; clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%); font-family: arial black; font-size:170%">
+title
+</div>
+</div>
+
+<!--Accomapnying image-->
+<div class = "p-2 row no-gutters" style = "color:white">
+<div class = "col-lg-3">
+<div class = "text-center" style = "transform:rotate(3deg); z-index:1; position:relative; top:7px">
+
+<!--Tape-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115662_V8Wh4JT0kyUhwQs.png" style = "max-height:30px"></div>
+</div>
+<div class = "p-2" style = "transform:rotate(2deg); background-color:white">
+
+<!--Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+</div>
+</div>
+
+<!--TEXT BODY------------------------------------------------------>
+<div class ="col-lg m-2">
+THE TEXT BODY
+</div>
+<!--TEXT BODY------------------------------------------------------>
+</div>
+</div>
+
+<!--add more here!!-->
+
+<!--DIVIDER------------------------------------->
+<div class = "text-center" style = "background-color:gray; font-family: arial black; font-size:20px; transform: rotate(2deg);max-width:99%; height:35px;">
+<div style = "background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115172_FHPV01cHhKMAAfA.png); background-size: 100%; height:30px; transform: rotate(-4deg); top:-5px; position:relative; color:white;">
+Spoilers!!
+</div>
+</div>
+
+<!--Log.exe Button-->
+<div class = "justify-content-center pt-3">
+<div class = "p-3 accordion"style = "font-family: arial black; font-size:170%;background-color:rgba(0,0,0,0.9);transform: rotate(-2deg); clip-path: polygon(9% 3%, 100% 0%, 95% 94%, 0% 100%);" role = "tab">
+<a class = "row no-gutters" data-toggle = "collapse" href = "#CLOSE">
+<div class = "col" style = "max-height:1px;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115777_kaNhU2XqfE1YRcQ.gif" style = "max-height:60px; position:relative; left:-15px; top:-10px;">
+</div>        
+<div class = "col pl-5"><span style = "color:#948E8B">Log.exe</span></div>
+</a>
+</div>
+</div>
+
+<!--Log.exe Text-->
+<div id="CLOSE" class = "collapse" style = "color:white">
+<div class = "p-2 row no-gutters" style = "color:white">
+
+<!--TEXT BODY------------------------------------------------------>
+<div class ="col-lg m-2">
+THE TEXT BODY
+</div>
+<!--TEXT BODY------------------------------------------------------>
+
+<!--Accomapnying image-->
+<div class = "col-lg-3">
+<div class = "text-center" style = "transform:rotate(3deg); z-index:1; position:relative; top:7px">
+
+<!--Tape-->
+<div><img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115666_GCKBx50kvWz2o2m.png" style = "max-height:30px"></div>
+</div>
+<div class = "p-2" style = "transform:rotate(2deg); background-color:white">
+
+<!--Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3--TAB 3-->
+
+<!--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4-->
+<div class="tab-pane fade in" style="max-height:540px; height: 500px; overflow:auto" id="SEVEN">
+
+<!--like the story section, this can be filled as much as you like!-->
+<!--it doesn't need to follow the current setup, you can copy and paste whichever section wherever you need-->
+<!--don't forget the borders!-->
+
+<!--CHARACTER LINK: IMAGE LEFT------------------------------------------------------>
+<div class = "row no-gutters mb-4">
+<div class = "col-lg-3 pr-2 pl-2">
+
+<!--Character Link-->
+<a href="LINK">
+
+<!---Character Image-->
+<img src =  "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+
+<!--Character Name-->
+<div style = "height:1px;"><div class = "text-center" style = "background-color: rgba(0,0,0,0.9); color:white; font-family: arial black; position:relative; top:-10px; transform:rotate(-2deg)"><span style = "color:#948E8B">
+NAME
+</span>
+</div></div>
+</a>
+</div>
+
+<div class = "col-lg pt-2">
+
+<!--Relationship Status/ Short Comment-->
+<div style = "color:white; background-color:rgba(0,0,0,0.9); padding:5px;font-family: arial black; width:80%; transform:rotate(2deg)">
+relationship status/ short comment
+</div>
+
+<!--Hearts-->
+<div style = "font-size:20px; color:white">
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+</div>
+
+<!--Description------>
+<div style = "color:white">
+yippee!!
+</div>
+<!--Description------>
+</div>
+</div>
+
+<!--BORDER----------------------------------------------------->
+<div class = " col border-left-0 border-right-0 border-bottom-0 mt-3 mb-2" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--CHARACTER LINK: IMAGE MIDDLE------------------------------------------------------>
+<div class = "row no-gutters mt-4 mb-4">
+<div class = "col-lg-4">
+
+<!--Relationship Status/ Short Comment-->
+<div style = "color:white; background-color:rgba(0,0,0,0.9); padding:5px;font-family: arial black; width:95%; transform:rotate(2deg)">
+relationship status/ short comment
+</div>
+
+<!--Hearts-->
+<div class = "pt-2"style = "font-size:20px; color:white">
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+</div>
+
+<!--Description-->
+<div style = "color:white">
+yahooo!
+</div>
+
+</div>
+
+<div class = "col-lg-3 pr-2 pl-2">
+
+<!--Character Link-->
+<a href="LINK">
+
+<!--Character Image-->
+<img src =  "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+<div style = "height:1px;"><div class = "text-center" style = "background-color: rgba(0,0,0,0.9); color:white; font-family: arial black; position:relative; top:-10px; transform:rotate(2deg)"><span style = "color:#948E8B">
+NAME
+</span>
+</div></div>
+</a>
+</div>
+
+<!--Description------>
+<div class ="col-lg p-2" style = "color:white">
+Yippee!!
+</div>
+<!--Description------>
+</div>
+
+<!--BORDER----------------------------------------------------->
+<div class = " col border-left-0 border-right-0 border-bottom-0 mt-3 mb-2" style = "border: 3px solid white; border-style:dotted; "></div>
+
+<!--CHARACTER LINK: IMAGE RIGHT------------------------------------------------------>
+<div class = "row no-gutters mt-4 mb-4">
+<div class = "col-lg pt-2">
+
+<!--Relationship Status/ Short Comment-->
+<div style = "color:white; background-color:rgba(0,0,0,0.9); padding:5px;font-family: arial black; width:80%; transform:rotate(2deg)">
+relationship status/ short comment
+</div>
+
+<!--Hearts-->
+<div style = "font-size:20px; color:white">
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-regular fa-heart"></i>
+</div>
+
+<!--Description------>
+<div style = "color:white">
+Yippee!!
+</div>
+<!--Description------>
+</div>
+
+<div class = "col-lg-3 pr-2 pl-2">
+
+<!--Character Link-->
+<a href="LINK">
+
+<!--Character Image-->
+<img src =  "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+<div style = "height:1px;"><div class = "text-center" style = "background-color: rgba(0,0,0,0.9); color:white; font-family: arial black; position:relative; top:-10px; transform:rotate(-2deg)"><span style = "color:#948E8B">
+NAME
+</span>
+</div></div>
+</a>
+</div>
+</div>
+
+<!--add more here!!-->
+
+</div>
+<!--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4--TAB 4-->
+</div>
+<!--TAB CONTENT-------------------------------------------------------------------------------------------------------------------------->
+</div>
+</div>
+</div>
+
+<!--BACK BUTTON--------------------------->
+<div class = "row justify-content-between" style = "height:100px;">
+<div class = "col" style = "z-index: 1; position: relative; max-width:160px; height:100px; left:10px; padding:5px; top:30px; clip-path: polygon(0 7%, 80% 4%, 78% 50%, 4% 66%); align-items: center;  background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115299_uNDZsUSLflJRXTl.jpg); ">
+<div style = "transform: skewY(-2deg) rotate(-3deg); font-size:20px; font-weight:500;">
+
+<!--Insert link-->
+<a href = "LINK">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115114_QxSJ7Ix8vdsOsbO.png" style = "max-height:50px;max-width:50px;"> <span style = "color: #948E8B; font-family:arial black">Back</span>
+</a> 
+</div>
+</div>
+
+<!--L joystick-->
+<div class = "col" style = "max-width: 100px; left:-1px; position:relative; z-index:1; top:-10px;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115074_ywVdzJeH98Gzxqy.gif" style = "max-width: 70px;">
+</div>
+</div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1--COLUMN 1-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class = "col-lg-5">
+
+<!--Background Image--------------------------->
+<div style = "position:absolute; z-index:0; background-position: -16px 0px; margin-top:50px; right:23px; height:750px; width:100%; border-radius: 0px 30px 30px 0px; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/73454919_Lwz5kIOWAEGHUyn.png);"></div>
+
+<!--Form Name Background--------------------------------->
+<div style = "height:50px;">
+<div style = "z-index: 5; position:relative; left:300px; max-width:90px; top:10px; height:90px; transform: rotate(3deg);">
+</div>
+<div style =  "position: relative; top:-70px; padding:15px; left:30px; width:360px; text-align: center; height:70px; transform:  skewY(-1deg) rotate(-1deg); clip-path: polygon(15% 6%, 97% 0, 100% 75%, 5% 75%); align-items: center; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png)">
+</div>
+
+<!--Reference Images---------------------------------------------->
+<div class = "justify-content-end align-items-center" style = "background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115299_uNDZsUSLflJRXTl.jpg); z-index:5; position:relative; top:-90px; clip-path: polygon(29% 0, 100% 0, 98% 93%, 32% 100%); transform: rotate(-3deg); height:50px; max-width:90%;">
+<div class = "text-left" style = "margin-right:25px;">
+
+<!--Insert Link-->
+<a href  ="LINK">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115119_rx4FGwXBl3RM5my.png" style = "max-height:40px">
+<span style = "color:#948E8B; font-family:arial black">
+Reference Images
+</span></a>
+</div>
+</div>
+</div>
+
+<!--TAB CONTENT--------------------------------------------------------------------------------------------->
+<div style = "height:735px;">
+<div class = "justify-content-center rounded tab-content" style = "z-index: 3;position: relative; top:15px; margin-left:10px; margin-right:10px; height:670px; max-height:670px; padding-top:20px">
+
+<!--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1-->
+<div class="tab-pane fade in active show" data-toggle="tab" id="ONE" >
+<div class = "text-center" style = "transform: skewY(-1deg) rotate(-1deg); height:20px; top:-55px; position:relative; z-index: -3; font-size:20px; font-weight:500; color: white; font-family:arial black">Humanoid Form</div>
+
+<!--Character image-->
+<img src = "https://cdn.discordapp.com/attachments/1112838042256945282/1112838289297264670/placeholder_humanoid.png?ex=65e62d6b&is=65d3b86b&hm=42fd9990c3b8d20ae4753777a813ed5190f335d4b6f44d2d7f16b2af49378d79&" style = "max-width:400px; max-height:600px; border-radius:10px;" class = "mt-4">
+</div>
+<!--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1--Tab 1-->
+
+<!--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2-->
+<div class="tab-pane fade" data-toggle="tab" id="TWO">
+
+<!--Write a short comment here-->
+<div class = "text-center" style = "transform: skewY(-1deg) rotate(-1deg); height:20px; top:-50px; position:relative; z-index: 5; width:100%; font-size:15px; font-weight:500; color: white;">
+short comment
+</div>
+<div style = "max-height:630px; height:630px; width:350px; max-width:350px; overflow:auto; background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115184_yW4pdwmdxkGdOZW.png);border-radius:10px">
+<!--R joystick-------------->
+<div style = "position:absolute; max-width: 100px; left:78%; top:87%;">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115086_z8pGYYAmrwgMkUJ.gif" style = "max-width: 70px;">
+</div>
+
+<!--Color Palette---------------->
+<div class = "m-4" style = "color:white;">
+<div style = "font-family: arial black; font-size:20px; background-color:rgba(0,0,0,0.8); padding:10px; transform:rotate(-1deg)">Colour Palette</div>
+
+<!--ROW OF PHOTOS----------------------------------------->
+<div class = "row no-gutters" style = "color:black;font-size:10px">
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(-5deg); position:relative; left:2%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(5deg); position:relative; left:2%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(2deg); position:relative; left:1%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(-5deg); position:relative; left:-1%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+</div>
+
+<!--ROW OF PHOTOS----------------------------------------->
+<div class = "row no-gutters" style = "color:black;font-size:10px">
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(2deg); position:relative; left:2%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(-5deg); position:relative; left:2%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(7deg); position:relative; left:1%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+
+<!--Color-->
+<div class = "col-3 p-1" style = "transform:rotate(2deg); position:relative; left:-1%">
+<div class = "text-center" style = "background-color:white; padding:7px;">
+<div style = "height:40px; background-color:#A5968F;"></div>#A5968F
+</div>
+</div>
+</div>
+
+<!--DESIGN NOTES-------------------------------->
+<div style = "font-family: arial black; font-size:17px; background-color:rgba(0,0,0,0.8); padding:7px;transform:rotate(-1deg)">Notes</div>
+
+<div class = "p-1">
+<!--like the previous sections, this can be filled as much as you like!-->
+<!--it doesn't need to follow the current setup, you can copy and paste whichever section wherever you need-->
+
+<!--DESIGN NOTES: IMAGE RIGHT-------------------->
+<div class = "row no-gutters">
+
+<!--Text Body-------------->
+<div class ="col">
+text body
+</div>
+<!--Text Body-------------->
+
+<div class ="col-4 p-1" style = "transform:rotate(2deg)">
+<div class = "text-center" style = "height:10px;">
+<!--Tape-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115672_kJgEeGKgAQVTG9v.png" style = "max-height:20px;position:relative;z-index:1;top:-7px;">
+</div>
+<!--Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+</div>
+</div>
+
+<!--DESIGN NOTES: IMAGE LEFT-------------------->
+<div class = "row no-gutters">
+<div class ="col-4 p-1" style = "transform:rotate(-3deg)">
+<div class = "text-center" style = "height:10px;">
+<!--Tape-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115672_kJgEeGKgAQVTG9v.png" style = "max-height:20px;position:relative;z-index:1;top:-7px;">
+</div>
+<!--Image-->
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115167_9n4VUTojrLuhPTf.jpg">
+</div>
+
+<!--Text Body-------------->
+<div class ="col">
+text body
+</div>
+<!--Text Body-------------->
+</div>
+
+<!--DESIGN NOTES-------------------->
+<div>
+text body
+</div>
+<!--DESIGN NOTES-------------------->
+</div>
+</div>
+</div>
+</div>
+<!--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2--Tab 2-->
+
+<!--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3-->
+<div class="tab-pane fade" data-toggle="tab" id="THREE">
+<div class = "text-center" style = "transform: skewY(-1deg) rotate(-1deg); height:20px; top:-55px; position:relative; z-index: -3; font-size:20px; font-weight:500; color: white; font-family:arial black">Swim Form</div>
+
+<!--Character image-->
+<img src = "https://cdn.discordapp.com/attachments/1112838042256945282/1112838290970771589/placeholder_swim.png?ex=65e62d6c&is=65d3b86c&hm=02c8c9d64b2c5fe7602baa6d7058aa71adbbebf33e12f7ad3ae472102ba30d1a&" style = "max-width:400px; max-height:600px; border-radius:10px;" class = "mt-4">
+</div>
+<!--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3--Tab 3-->
+</div>
+</div>
+
+<!--NAVIGATION BUTTONS------------------------------------------------------------------------>
+<div class="text-center justify-content-between row no-gutters" style = "height:20px;">
+
+<ul class= "nav">
+<!--Button Left----------------->
+<li class="nav-item"><a class="btn nav-link active col" data-toggle="tab" href="#ONE" style = "z-index:5; top:-560px; position:relative; max-height:85px; transform: rotate(-5deg); ">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115134_uY07AX33yoRsHPG.png" class="tooltipster" title = "Humanoid Form"  style = "max-height:80px; background-image: radial-gradient(rgba(255,255,255,0.3) 5%, rgba(0,0,0,0) 70%)">
+</a></li>
+
+<!--Button Middle----------------->
+<li class="nav-item"><a class="btn nav-link col row no-gutters align-items-center justify-content-center" data-toggle="tab" href="#TWO" style = "position:relative; z-index:5; top:-60px; max-height:100%; clip-path: polygon(0 0, 100% 0, 98% 99%, 2% 100%); transform: rotate(-4deg); background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/images/78115195_HT1ig2BRe4v6ih5.png)">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115147_6M31912uhx11D8P.png" style = "max-height:80px;">
+<span style = "font-size:20px; font-weight:500; color: #948E8B; font-family:arial black">Design Notes</span>
+</a></li>
+
+<!--Button Right----------------->
+<li class="nav-item"><a class="btn nav-link col" data-toggle="tab" href="#THREE" style = "position:relative; z-index:5; max-height:85px; top:-460px; transform: rotate(5deg);">
+<img src = "https://f2.toyhou.se/file/f2-toyhou-se/images/78115127_V2muuPLTOo9LM84.png" class="tooltipster" title = "Swim Form"  style = "max-height:80px; background-image: radial-gradient(rgba(255,255,255,0.3) 5%, rgba(0,0,0,0) 70%)">
+</a></li>
+</ul>
+
+</div>
+
+<!--CODE CREDIT-->
+<!--!!!! DO NOT REMOVE !!!!-->
+<div align = "right" style = "height:20px;">
+<div class = "text-center" style = "position:relative; top:-60px; width:10%; right:6%; font-size:200%;">
+<a href="https://toyhou.se/Queperly" style="color:rgba(255,255,255,0.6)"> <span data-toggle="tooltip" title="Code by Queperly"> <i class="fa-solid fa-code"></i> </span> </a>
+</div>
+</div>
+<!--!!!! DO NOT REMOVE !!!!-->
+<!--CODE CREDIT-->
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2--COLUMN 2-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+</div>
+</div>
+</div>
